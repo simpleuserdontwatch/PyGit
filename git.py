@@ -86,7 +86,3 @@ def createrepo(name,desc="",private=False,homepage="",template=False):
         "homepage": homepage,
         "is_template": template
     })
-
-login("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",method="token")
-
-createrepo("GithubAPITesting1")
